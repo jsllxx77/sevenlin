@@ -57,7 +57,7 @@ $.url = "";
   if ($.ifgetdetail == true || $.ifgetdetail == "true") {
     await getdetail($.url, $.saveditem);
   }
-  if ($.area == "云浮") {
+  if ($.area == "北京") {
     await getsecondaddress($.saveditem);
     if ($.ifgetdetail == true || $.ifgetdetail == "true") {
       await getseconddetail($.url2, $.saveditem);
