@@ -45,7 +45,7 @@ cron "5 * * * *" script-path=https://raw.githubusercontent.com/evilbutcher/Quant
 const $ = new API("sydwzp", true);
 const ERR = MYERR();
 
-var area = "云浮"; //👈本地关键词在这里设置。
+var area = "北京"; //👈本地关键词在这里设置。
 var ifgetdetail = true; //是否获取附件链接
 $.refreshtime = 6; //重复内容默认在6小时内不再通知，之后清空，可自行修改
 $.saveditem = [];
